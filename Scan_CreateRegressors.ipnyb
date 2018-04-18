@@ -4,7 +4,19 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# Create Models from Events.tsv file"
+    "# Scan_CreateRegressors.ipnyb\n",
+    "\n",
+    "Author: Marissa Clark\n",
+    "\n",
+    "Input (in scanfiles): \n",
+    "\n",
+    "* sub-{sub}_task-emp_run-{run}_events.tsv\n",
+    "\n",
+    "    * file that contains all ratings by run\n",
+    "    \n",
+    "\n",
+    "    \n",
+    "\n"
    ]
   },
   {
@@ -62,8 +74,7 @@
     "def model_function(tsv_dataframe):\n",
     "    task_events = tsv_dataframe[['onset', 'duration', 'self_other']]\n",
     "    \n",
-    "    return task_events\n",
-    "\n"
+    "    return task_events"
    ]
   },
   {
